@@ -1,0 +1,41 @@
+/* order details */
+#order-details{
+    border: 1px solid teal;
+    width: 20%;
+    height: auto;
+    padding: 10px;
+}
+.apply-voucher{
+    /* border: 1px solid brown; */
+    width: 100%;
+    height: auto;
+
+}
+#apply-voucher{
+    display: flex;
+    justify-content: space-around;
+}
+.apply-voucher-btn{
+    
+}
+.order-summary{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+}
+.basket-value{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.savings-details{
+    /* border: 1px solid green; */
+}
+.total-amount-payable{
+    display: flex;
+    justify-content: space-between;
+}
+.total-savings{
+    display: flex;
+    justify-content: space-between;
+}

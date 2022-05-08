@@ -1,0 +1,94 @@
+#delivery-address{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+}
+.delivery-address{
+    background: #f5f5f5;
+    /* border: 1px solid red; */
+    padding: 15px;
+}
+.personal-details{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto; 
+}
+.first-name{
+    /* border: 1px solid blue; */
+    width: 25%; 
+}
+.last-name{
+    width: 25%;
+}
+.contact-no{
+    width: 50%;
+}
+.required{
+    color: red;
+}
+.form-group{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+.form-group input{
+    margin-top: 10px;
+}
+/* Addtress details */
+.address-details{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+}
+.house-no{
+    width: 25%;
+}
+.apartment-name{
+    width: 75%;
+}
+/* Addtress details  Row - 2*/
+.street-details{
+    width: 50%;
+}
+.landmark-details{
+    width: 50%;
+}
+/* Addtress details  Row - 3*/
+.city-name{
+    width: 25%;
+}
+.area-details{
+    width: 50%;
+}
+.pin-code{
+    width: 25%;
+}
+/* Addtress details  Row - 4*/
+.address-nickname{
+
+}
+.btn-group{
+    margin-top: 10px;
+}
+.checkbox{
+
+}
+.btn-group button{
+    padding: 7px 10px 4px;
+    background: white;
+    border: 1px solid #666666;
+    /* margin-left: 10px; */
+}
+.btn button{
+    margin-left: 10px;
+    padding: 8px 15px 8px;
+}
+.add-address-btn{
+    color: white;
+    background: #666666;
+    border: none;
+}
+.cancel-btn{
+    background: white;
+    border: 1px solid #666666;
+}
