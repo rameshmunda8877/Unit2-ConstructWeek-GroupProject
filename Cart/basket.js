@@ -92,9 +92,9 @@ function display(data) {
             unitPrice.setAttribute("id", "unitPrice")
 
             const unitPriceP1 = document.createElement('p');
-            unitPriceP1.innerText = elem.priceDisplay
+            unitPriceP1.innerText = "Rs. " + elem.productMRP
             const unitPriceP2 = document.createElement('p');
-            unitPriceP2.innerText = elem.priceBeforeDisplay
+            unitPriceP2.innerText = "Rs, " + elem.productStrikeMRP
 
             unitPrice.append(unitPriceP1, unitPriceP2)
 
@@ -122,7 +122,7 @@ function display(data) {
                     sub = elem.productMRP * pQuantity.innerText
                     subTotal.innerText = "Rs." + " " + sub.toFixed(2)
 
-                    var k = (elem.priceBefore - elem.productMRP).toFixed(2)
+                    var k = (elem.productStrikeMRP - elem.productMRP).toFixed(2)
                     sav = sav - k
                     var save = sav.toFixed(2)
                     saving.innerText = "Rs." + " " + save
@@ -146,7 +146,7 @@ function display(data) {
                 sub = elem.productMRP * pQuantity.innerText
                 subTotal.innerText = "Rs." + " " + sub.toFixed(2)
 
-                var k = (elem.priceBefore - elem.productMRP)
+                var k = (elem.productStrikeMRP - elem.productMRP)
                 sav = sav + k
                 var save = sav
                 saving.innerText = "Rs." + " " + save.toFixed(2)
@@ -175,7 +175,7 @@ function display(data) {
 
             const saving = document.createElement('p');
             saving.style.color = "#BE1E2D"
-            var sav = (elem.priceBefore - elem.productMRP)
+            var sav = (elem.productStrikeMRP - elem.productMRP)
             var save = sav
             saving.innerText = "Rs." + " " + save
             itemDetails.append(itemDescription, unitPrice, incDecQuantity, subTotal, deletelogo, saving)
