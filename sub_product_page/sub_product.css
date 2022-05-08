@@ -1,0 +1,97 @@
+#logo {
+    height: 100px;
+    width: 100px;
+    
+}
+#container {
+    height: auto;
+    width: 85%;
+    border: 1px solid red;
+    margin: auto;
+
+}
+.discount{
+    
+    font: bold;
+    text-align: right;
+    border: 1px solid pink;
+
+}
+.discounttag{
+    height: 10px;
+    width: 10px;
+    
+}
+
+
+#listcontainer{
+    display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, auto);
+        gap: 20px;
+        width: 60%;
+        height: auto;
+        margin-left: 500px;
+        border: 1px solid red;
+        padding-right: 100px;
+}
+.Everready > img {
+    width: 100%;
+}
+
+.discount{
+    text-align: right;
+    height: auto;
+    border: 1px solid blue;
+}
+
+#listcontainer > div {
+    border: 1px solid green;
+}
+
+
+.fa-solid {
+    color: red;
+    height: 10px;
+}
+#quantity > p {
+padding-top: -100px;
+}
+#price {
+ padding-top: -100px;
+}
+#checkbox {
+    border: 1px solid black;
+    height: auto;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: -500px;
+    
+}
+.heading{
+    text-align: right;
+}
+.button{
+    opacity: 0.5;
+}
+.shapes{
+    opacity: 0.5;
+}
+.bulbs_available{
+    opacity: 0.5;
+}
+.colour{
+    opacity: 0.5;
+}
+.money{
+    opacity: 0.5;
+}
+.box{
+    background-color: #f4f3f2;
+}
+.Add{
+    background-color: orange;
+}
+.red{
+    color: red;
+}
