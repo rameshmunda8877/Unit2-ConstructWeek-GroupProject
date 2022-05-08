@@ -1,0 +1,842 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+
+/* Navbar part */
+#container{
+    
+    width: 35%;
+    height: 20px;
+    display: flex;
+   justify-content: space-between;
+   margin: auto;
+   margin-right: 5%;
+   display: flex;
+   margin-bottom: 10px;
+  
+
+} 
+#container>div{
+  
+    height: 100%;
+    width:30%;
+    display: flex ; 
+    gap:10px;   
+    cursor: pointer;
+}
+#location{
+     width: 100%;
+     height: 90%;
+     font-size: 15px;
+     color:black;
+     background-color: white;
+     font-weight: 90;
+     cursor: pointer;
+     border: 0px solid;
+}
+#location:hover{
+    color: green;
+}
+#login:hover{
+  color:green;
+}
+#login1{
+text-decoration: none;
+}
+#login1:hover{
+    color: green;
+}
+/* Search Section */
+#container1{
+    height:90px;
+    width: 90%;
+     position: fixed;
+     /* position:-webkit-sticky; */
+    margin: auto;   
+    display: flex; 
+    gap:20Px; 
+   background-color: white;   
+  position: sticky;
+  top: 0px;
+  cursor: pointer;
+  
+  
+
+}
+#container1>#box2{
+    height: 100%;
+    width: 15%;
+   
+    background-color: lightgrey;
+    display: flex;
+    gap:20px;
+}
+
+#container1>input+img{
+    height: 35px;
+    margin: auto;
+  
+    margin-left:-15%;
+  width: 4.5%;
+
+}
+#box>img{
+    height: 150%;
+    width: 100%;
+  
+   margin-top: -10px; 
+   
+}
+#box2>img{
+    height: 60%;
+    width: 30%;
+    padding-top: 20px;
+    margin-left: 10px;
+   
+   
+}
+#box2>img+p{
+ font-size: 20px;
+ font-family: sans-serif;
+ margin-top: 20px;
+}
+
+
+#box{
+   height: 60px;
+  
+   width:15%
+}
+
+
+#container1>input{
+   height: 30px;
+   width: 50%;
+margin-top: 30px;
+margin-left: 50px;
+padding-left: 20px;
+padding-top: 3px;
+
+}
+#container1>input+img{
+margin-left: -70px;
+width: 50px;
+margin-bottom: 24px;
+
+}
+/* Category Part */
+#container3{
+    border:1px solid lightgrey;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+   display: flex;
+   cursor: pointer;
+   
+}
+select{
+    width: 110%;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+     font-weight: 600;
+     background-color:rgba(26, 221, 26, 0.719);
+     border:0px solid;
+     color: white;
+     
+}
+
+option{
+ background-color: white;
+ color: black;
+ 
+}
+#offer{
+    display:flex;
+    /* border:1px solid red; */
+    height: 100%;
+    width:10%;
+    margin-left: 26px;
+    padding-left: 40px;
+    
+   
+}
+#offer>img{
+    margin-left: -30px;
+  
+}
+
+#al{
+  text-decoration: none;
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: white;
+}
+#offer>p{
+    padding-top:10px;
+   margin-left: 20px;
+   /* direction: none; */
+}
+#offer:hover{
+   background-color :rgba(26, 221, 26, 0.719);
+  
+}
+#speciality{
+    display:flex;
+    /* border:1px solid red; */
+    height: 100%;
+    width:13%;
+    /* margin-left: 26px; */
+    padding-left: 70px;
+    gap: 10px;
+    
+}
+#speciality>img{
+    height: 100%;
+    width: 25%;
+    margin-left: -60px;
+    color: #fff;
+}
+
+#speciality>p{
+   text-align: center;
+   padding-top:10px;   
+}
+
+
+#speciality:hover{
+   background-color:rgba(26, 221, 26, 0.719); 
+    color: white;
+   
+    
+}
+
+    
+/* Advertise image */
+#container4{
+   height: 400px;
+   width: 85%;
+   /* display: flex;
+ margin: auto;
+   margin-top: 30px;
+   cursor: pointer;
+ 
+}
+#container4>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+} */
+margin: auto;
+display: flex;
+margin-top: 30px;
+position: sticky;
+
+
+
+}
+#container4>.swiper img{
+  height: 100%;
+  width: 100%;
+  
+
+}
+.swiper{
+   width: 100%;
+  
+}
+.swiper-slide img{
+ width: 100%;
+
+
+ /* height: 100%; */
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: red;
+}
+/* Nav page */
+#container5{
+   height: 70px;
+   width: 85%;
+   cursor: pointer;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+#container5>div{
+   height: 100%;
+   width: 16%;
+}
+#container5>div>h3{
+margin-top: 20px;
+}
+
+#container5>div:nth-child(1){
+
+   text-align: center;
+   font-family: sans-serif;
+   background-color: lightgray;
+   border-radius: 10PX;
+   
+
+}
+#container5>div:nth-child(2){
+
+   border-radius: 10px;
+
+
+
+}
+#container5>div>img{
+   height: 100%;
+   width: 100%;
+   
+}
+
+#container5>div:nth-child(3){
+   
+   background-color: red;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 14px;
+   
+
+}
+
+#container5>div:nth-child(4){
+  
+   background-color: red;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 14px;
+
+
+}
+
+#container5>div:nth-child(5){
+ 
+   background-color: lightgray;
+   text-align: center;
+   font-family: sans-serif;
+   border-radius: 10px;
+
+
+}
+#container5>div:nth-child(6){
+  
+   background-color: lightgray;
+   text-align: center;
+   font-family: sans-serif;
+   border-radius: 10px;
+
+}
+
+/* My Smart Basket part , Best  Sellers part */
+#container6{
+   height: 470px;
+   width: 85%;
+  
+   margin: auto;
+   margin-top: 90px;
+ 
+   
+}
+h1{
+ text-align: center;
+   font-weight: 100;
+   font-family: sans-serif;
+}
+.box5{
+   height:400px;
+   width: 100%;
+  
+   display:flex;
+   margin-top: 30px;
+   justify-content: space-between;
+}
+.box5>div{
+    cursor: pointer;
+    height: 100%;
+    width: 19%;
+   
+      
+}
+.box5>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main1{
+    height: 40%;
+    width: 100%;
+   margin-top: 10px;
+    
+}
+.hed{
+    margin-top: 10px;
+}
+.hed>p{
+ height: 20px;
+width: 90%;
+text-align: center;
+
+margin: auto;
+
+display: flex;
+gap:10px;
+color: red;
+justify-content: end;
+font-size: 13px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#logo{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+#fresho{
+    margin-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+#caption{
+    margin-left:5px ;
+    font-family: sans-serif;
+    font-size: 14px;
+   
+}
+#set{
+height: 20px;
+width: 90%;
+margin: auto;
+background-color: white;
+color: black;
+font-size: 15px;
+font-weight: 50;
+margin-left: 5%;
+border: 1px solid gray;
+margin-top: 10px;
+}
+#dilivery{
+    background-color: lightgrey;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    
+}
+#price{
+    margin-left: 5px;
+    font-size: 12px;
+    padding-top: 10px;
+    color:gray
+}
+#truck{
+    height: 20px;
+    width:30px;
+ 
+    margin-left: 5px;
+   
+}
+.nam{
+    font-size: 12px;
+    margin-left: 5px;
+
+}
+
+    
+   button{
+padding:5px 25px 5px 25px;
+    margin-left:100px ;
+    background-color: rgba(255, 217, 0, 0.733);
+ border-radius: 10px;
+ border:0px;
+ margin-top: 5px;
+ 
+
+}
+button:hover{
+    background-color: rgb(231, 200, 142);
+}
+#x{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+}
+
+/* Bank Offers Part */
+
+#container7{
+    height: 350px;
+    width: 85%;
+  
+    margin: auto;
+    margin-top: 80px;
+}
+#container7>h1{
+    text-align: center;
+      font-weight: 100;
+      font-family: sans-serif;
+   }
+   #box6{
+       height: 270px;
+       width: 100%;
+      
+       margin-top: 40px;
+       display: flex;
+       justify-content: space-between;
+   }
+   #box6>div{
+       height: 100%;
+       width:24%;
+       border: 1px solid lightgrey;
+       cursor: pointer;
+       
+   }
+   #box6>div>img{
+       height: 100%;
+       width: 100%;
+   }
+   .line{
+     border:1px solid lightgray;
+     font-weight: 90;
+   }
+   /* Most Popular part , Top Offers part, Snacks Store part, 
+    Cleaning & Household part */
+
+   #container8{
+       height: 340px;
+       width: 85%;
+      
+       margin: auto;
+       margin-top: 50px;
+   }
+   #box7{
+       height: 250px;
+       width: 100%;
+       
+       margin-top: 40px;
+       display: flex;
+       justify-content: space-between;
+   }
+   #box7>div{
+   height: 100%;
+   width: 24%;
+   cursor: pointer;
+   
+   }
+   #box7>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   }
+   #box7>div>img{
+       width: 100%;
+       height: 100%;
+   }
+   /* Fruits & Vegetables part , Beverages part , 
+   Beauty & Hygiene part*/
+   #container10{
+       height: 440PX;
+       width: 85%;
+      
+       margin: auto;
+       margin-top: 50px;
+   }
+   #box8{
+       width: 100%;
+       height: 350px;
+  
+       margin-top: 40px;
+       display: flex;
+       justify-content: space-between;
+   }
+   #box8>div{
+     width:49%;
+     height: 100%;
+     border: 1px solid lightgray;
+     cursor: pointer;
+    
+   }
+     #box8>div>img{
+         height: 100%;
+         width: 100%;
+     }
+ .fruits{
+     
+        height: 165px;
+        width: 100%;
+        display: flex;
+        gap:20px
+ }
+        .fruits>div{
+            height: 100%;
+            width:50%;
+
+            border: 1px solid lightgrey;
+
+        }
+        .fruits>div>img{
+            width: 100%;
+            height: 100%
+        }
+  .fruits1{
+  
+     height: 169px;
+   
+     display: flex;
+     gap:10px;
+     margin-top: 15px;
+} 
+.fruits1>div{
+    height: 100%;
+    width:50%;
+
+    border: 1px solid lightgrey;
+
+}
+.fruits1>div>img{
+    width: 100%;
+    height: 100%
+}
+/* Your Daily Staples part, Home & Kitchen Essentials part, 
+Brand Store part */
+#container11{
+    width:85%;
+    height: 230px;
+  
+    margin:auto;
+    margin-top: 50px;
+}
+#box9{
+    width:100%;
+    height: 150px;
+  
+    margin-top: 40px;
+    display: flex;
+    gap:20px
+}
+#box9>div{
+    height: 100%;
+    width:15%;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+   
+   
+
+}
+#box9>div:hover{
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    
+
+#box9>div>img{
+    height: 100%;
+    width:100%;
+}
+/* advertise img2 part */
+#container13{
+    height: 400px;
+    width: 85%;
+    border: 1px solid lightgray;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+/* Discription part  */
+#container14{
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    border: 1px solid  lightgray;
+    margin-top: 50px;
+
+}
+#container14>.hed{
+     text-align: start;
+     margin-left: 20px;
+     margin-top: 30px;
+     cursor: pointer;
+    
+}
+#container14>p{
+    color: gray;
+   line-height: 25px;
+   margin-left: 20px;
+   font-family: sans-serif;
+   margin-top: 20px;
+   cursor: pointer;
+  
+}
+ul{
+    
+   line-height: 25px;
+   margin-left:   100px;
+   font-family: sans-serif;
+   margin-top: 20px;
+   cursor: pointer;
+}
+#btn1{
+    width: 150px;
+  background-color: lightgray;
+  border-radius:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-bottom: 20px;
+  
+}
+#para>#hed1{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 30px;
+   
+}
+#para>p{
+    color: gray;
+   line-height: 25px;
+   margin-left: 20px;
+   font-family: sans-serif;
+   margin-top: 20px;
+}
+#para{
+    display: none;
+}
+/* Download part */
+
+#container15{
+    width: 85%;
+    height: 450px;
+
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+#container15>div{
+    width: 30%  ;
+    height: 100%;
+   
+}
+#container15>div>#para2{
+    color:green;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#container15>div>p{
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+#container15>div>p:hover{
+    color: green;
+}
+#div1{
+    height: 13%;
+    width: 60%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px ;
+    margin-top: 20px;
+}
+#div2{
+    height: 13%;
+    width: 60%;
+     cursor: pointer;
+    margin-left: 20px ;
+}
+#div1>img{
+    width:100%;
+    height: 100%;
+}
+#div2>img{
+    width:100%;
+    height: 100%;
+}
+#logo2{
+    height: 50px;
+    width: 80%;
+   
+    margin-left:20px ;
+    margin-top: 20px;
+    display: flex;
+    gap:10px;                                                                                                                           
+}
+#logo2>div{
+    height: 100%;
+    width: 22%;
+    cursor: pointer;
+  
+}
+#logo2>div>img{
+    width: 100%;
+    height: 100%;
+}
+#container16{
+    height: 500px;
+    width: 85%;
+ 
+    margin: auto;
+    margin-top: 20px;
+}
+
+#para3>p{
+    margin-left: 300px;
+    margin-top: -20px;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 25px;
+    cursor: pointer;
+}
+#container16>h4{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: green;
+    font-weight: 90;
+    font-family: sans-serif;
+}
+#para3>.div4{
+    height: 60px;
+    width: 60%;
+  
+    margin-left: 300px;
+    margin-top: -35px;
+    display: flex;
+    gap:10px
+}
+#para3>.div4>div{
+    height: 100%;
+    width:15% ;
+   
+}
+#para3>.div4>div>p{
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+    font-family: sans-serif;
+}
+#para3>.div4>div>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+#para3>p:hover{
+    color: green;
+}
+/* signup page */
