@@ -2,7 +2,7 @@
 
 var container = document.querySelector("#container")
 
-var details = JSON.parse(localStorage.getItem("cart"))
+var details = JSON.parse(localStorage.getItem("mini-cart"))
 
 var totalamount = JSON.parse(localStorage.getItem("amount"))
 
@@ -27,7 +27,7 @@ function display(data) {
         continueShoppingButton.addEventListener("click", shoppingFunction)
 
         function shoppingFunction() {
-            window.location.href = "../Unit2-ConstructWeek-GroupProject/index.html"
+            window.location.href = "../index.html"
         }
         document.querySelector("#container").append(noItem, hrline, continueShoppingButton)
     }
@@ -80,10 +80,10 @@ function display(data) {
             itemDescription.setAttribute("id", "itemDescription")
 
             const itemDescriptionP1 = document.createElement('p');
-            itemDescriptionP1.innerText = elem.brandName
+            itemDescriptionP1.innerText = elem.productName
 
             const itemDescriptionP2 = document.createElement('p');
-            itemDescriptionP2.innerText = elem.productName
+            itemDescriptionP2.innerText = elem.productDescription
             itemDescription.append(itemDescriptionP1, itemDescriptionP2)
 
 
@@ -112,17 +112,17 @@ function display(data) {
                     data.splice(index, 1)
                     // details.splice(index,1)
                     // var details = []
-                    localStorage.setItem("cart", JSON.stringify(details))
+                    localStorage.setItem("mini-cart", JSON.stringify(details))
                     window.location.reload()
                     // window.opener.location.reload().href = "sampleData.html"
                 }
                 else {
                     count--
                     pQuantity.innerText = count
-                    sub = elem.price * pQuantity.innerText
+                    sub = elem.productMRP * pQuantity.innerText
                     subTotal.innerText = "Rs." + " " + sub.toFixed(2)
 
-                    var k = (elem.priceBefore - elem.price).toFixed(2)
+                    var k = (elem.priceBefore - elem.productMRP).toFixed(2)
                     sav = sav - k
                     var save = sav.toFixed(2)
                     saving.innerText = "Rs." + " " + save
@@ -143,10 +143,10 @@ function display(data) {
             function plusFunction() {
                 count++
                 pQuantity.innerText = count
-                sub = elem.price * pQuantity.innerText
+                sub = elem.productMRP * pQuantity.innerText
                 subTotal.innerText = "Rs." + " " + sub.toFixed(2)
 
-                var k = (elem.priceBefore - elem.price)
+                var k = (elem.priceBefore - elem.productMRP)
                 sav = sav + k
                 var save = sav
                 saving.innerText = "Rs." + " " + save.toFixed(2)
@@ -161,7 +161,7 @@ function display(data) {
 
             const subTotal = document.createElement('p');
             subTotal.setAttribute("id", "sub")
-            var sub = elem.price * pQuantity.innerText
+            var sub = elem.productMRP * pQuantity.innerText
 
             subTotal.innerText = "Rs." + " " + sub.toFixed(2)
 
@@ -175,7 +175,7 @@ function display(data) {
 
             const saving = document.createElement('p');
             saving.style.color = "#BE1E2D"
-            var sav = (elem.priceBefore - elem.price)
+            var sav = (elem.priceBefore - elem.productMRP)
             var save = sav
             saving.innerText = "Rs." + " " + save
             itemDetails.append(itemDescription, unitPrice, incDecQuantity, subTotal, deletelogo, saving)
@@ -205,7 +205,7 @@ function display(data) {
                 document.querySelector("#cont").innerHTML = ""
                 containerAfterProductDetail.innerHTML = ""
                 details = []
-                localStorage.setItem("cart", JSON.stringify(details))
+                localStorage.setItem("mini-cart", JSON.stringify(details))
                 window.location.reload()
             }
         }
@@ -302,7 +302,7 @@ function display(data) {
 
     function deleteItem(data, index) {
         data.splice(index, 1)
-        localStorage.setItem("cart", JSON.stringify(details))
+        localStorage.setItem("mini-cart", JSON.stringify(details))
         window.location.reload()
     }
 }
