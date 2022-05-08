@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ProductCategory_a.css">
+    <link rel="stylesheet" href="productview_a.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR HTML START -->
+
+    <div id="navbar">
+        <div>1</div>
+        <div id="nav_middle">
+            <div id="nt">
+                <div>st1</div>
+                <div>st2</div>
+            </div>
+            <div id="nm">
+                <div>sb1</div>
+                <div>sb2</div>
+            </div>
+        </div>
+        <div id="nav_right">
+            <div>a</div>
+            <div>b</div>
+        </div>
+    </div>
+
+    <div id="navbar2">
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+ <!-- NAVBAR HTML END -->
+
+ <!-- HOME PAGE LINKAGE -->
+
+   <div id ="buttonlinkage">
+    <button><a href="dummyPage1.html" >HOME ></a></button>
+    <button><a href="Product.html"> KITCHEN, GARDEN & PETS ></a></button>
+    <button><a href="Product_a.html"> APPLIANCES & ELECTRICALS</a></button>
+   </div> 
+
+  <!-- PRODUCTVIEW1 -->
+        <!-- Slideshow Container -->
+    <div id="productView1">
+           <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides">
+                    <div class="numbertext">1/2</div>
+                    <img src="https://www.bigbasket.com/media/uploads/banner_images/yxtt569_l2_eveready_300_010522.jpg" style="width: 100%">
+                    <div class="text">Eveready</div>
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2/2</div>
+                    <img src="https://www.bigbasket.com/media/uploads/banner_images/yxtt562_l2_duracell_300_010522.jpg" style="width: 100%">
+                    <div class="text">Duracell</div>
+                </div>
+           </div>
+    </div>
+
+  <!-- PRODUCTVIEW2 Category -->
+
+    <div id="productView2">
+        <div id="varietyOfProducts">
+            <h3>Category</h3>
+            <div>
+                <h4><a href="Product.html" >Kitchen, Garden & Pets</a></h4>
+                <h4><a href="Product_a.html" >Appliances & Electricals</a></h4>
+                <p><a href="Product_a1.html" >Battery & Electrical</a> </p>
+                <p><a href="dummyPage1.html" target="_blank">CFL & LED Bulbs</a> </p>
+            </div>
+            <!-- Brand Search -->
+            <h3>Brand</h3>
+            <div>
+                <div id="brandSearch">
+                    <div>
+                        <form class="example" action="action_page.php" >
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                          </form>
+                    </div>
+                </div>
+                <form>
+                    <select id="mySelect" size="8" onchange="selectBrand()">
+                        <option value="none">--</option>
+                      <option value="Eveready">Eveready</option>
+                      <option value="Duracell">Duracell</option>
+                      <option value="Panasonic">Panasonic</option>
+                      <option value="Agaro">Agaro</option>
+                      <option value="Energizer">Energizer</option>
+                      <option value="Wipro">Wipro</option>
+                      <option value="Nippo">Nippo</option>
+                      <option value="HIT">HIT</option>
+                      <option value="Philips">Philips</option>
+                      <option value="Asian">Asian</option>
+                    </select>
+                </form>
+            </div>
+            <!-- Bulb Capacity Category -->
+            <h3>LED Bulb Wattage</h3>
+            <div>
+                <form>
+                  <select size="6" id="capacity" onchange="selectCapacity()">
+                    <option value="3 - 5 W"> 3 - 5 W</option>
+                    <option value="6 - 9 W"> 6 - 9 W</option>
+                    <option value="10 - 14 W"> 10 - 14 W</option>
+                    <option value="15 - 20 W"> 15 - 20 W</option>
+                    <option value="21 - 25 W"> 21 - 25 W</option>
+                    <option value="26 - 30 W"> 26 - 30 W</option>
+                    <option value="31 - 35 W"> 31 - 35 W</option>
+                    <option value="Upto 1 W"> Upto 1 W</option>
+                  </select>
+                </form>
+            </div>
+            <!-- Price -->
+            <h3>Price</h3>
+            <div>
+                <form>
+                    <select id="mySelect2" size="8" onchange="selectBodyMaterial()">
+                      <option value="Rs 0-20">Less than Rs 20</option>
+                      <option value="Rs 21 to Rs 50">Rs 21 to Rs 50</option>
+                      <option value="Rs 51 to Rs 100">Rs 51 to Rs 100</option>
+                      <option value="Rs 101 to Rs 200">Rs 101 to Rs 200</option>
+                      <option value="Rs 201 to Rs 500">Rs 201 to Rs 500</option>
+                      <option value="Rs 501 to Rs 1000">Rs 501 to Rs 1000</option>
+                      <option value="Rs 1001 to Rs 2000">Rs 1001 to Rs 2000</option>
+                      <option value="Rs 1500 to Rs 2500">Rs 1500 to Rs 2500</option>
+                      <option value="Rs 2001 to Rs 3000">Rs 2001 to Rs 3000</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <!-- Popularity Box -->
+        <div id="productDetails">
+            <div id="PD1">                
+                <div>
+                    <h2>Aplliances & Electricals</h2>
+                <select id="popularity" onchange="handlePopularitySort()">
+                    <option>POPULARITY</option>
+                    <option value="LTH">PRICE-Low to High</option>
+                    <option value="HTL">PRICE-High to Low</option>
+                    <option value="ALPHA_ASC">NAME-Ascending_order</option>    
+                    <option value="ALPHA_DES">NAME-Descending_order</option>                                                  
+                </select>
+            </div>
+            
+            <div id="underline"> 
+                <p><img src="https://c.tenor.com/se7cU4QJ0KAAAAAi/delivery.gif" alt="logo">📦 All Products 📦</p>
+            </div>
+            </div>
+            <!-- Products Details -->
+            <div>
+                <div id="detailedProductViews"></div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script src="ProductDetails_a.js"></script>
+
+<script src="ProductFilter_a.js"></script>
+
+<script src="ProductSlide_a.js"></script>
+
+<script src="ProductSorting_a.js"></script>
+
+<script src="search.js"></script>
