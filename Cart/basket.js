@@ -209,7 +209,7 @@ function display(data) {
             if (a) {
                 document.querySelector("#container").innerHTML = ""
                 document.querySelector("#cont").innerHTML = ""
-               document.querySelector("#containerAfterProductDetail").innerHTML = ""
+                document.querySelector("#containerAfterProductDetail").innerHTML = ""
                 details = []
                 localStorage.setItem("mini-cart", JSON.stringify(details))
                 window.location.reload()
@@ -294,7 +294,7 @@ function display(data) {
         checkoutDiv.append(checkoutDiv1, checkoutDiv2)
 
         // continue shopping button
-        
+
         var continueShoppingButton = document.createElement("button")
         continueShoppingButton.setAttribute("id", "latContinueShoppingButton")
         continueShoppingButton.innerText = "CONTINUE SHOPPING"
