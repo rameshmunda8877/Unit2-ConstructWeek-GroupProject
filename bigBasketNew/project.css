@@ -1,0 +1,132 @@
+#bigbox{
+    height:500px;
+    width:80%;
+
+    margin:auto;
+    margin-top:150px;
+    display:flex;
+    }
+    #category{
+        height:100%;
+        width:23%;
+         }
+    #product{
+        height:100%;
+        width:40%;
+        border-left: 1px solid rgb(228, 224, 224);
+       box-sizing:content-box;
+      }
+    #inbasket{
+        height:100%;
+        width:37%;
+       }
+    #cat{
+      height:50%;
+      width:100%;
+      }
+    #brand{
+        height:30%;
+        width:100%;
+        margin-top:10px;
+    }
+   #prices{
+       margin-left: 20px;
+   }
+   #fv{
+       margin-left:5px;
+   }
+   #cuts{
+       margin-left: 15px;
+       color:grey;
+   }
+   #cut{
+       margin-left: 25px;
+       color:grey;
+   }
+   #fres{
+       font-size: 12px;
+       color:grey;
+       text-decoration: underline;
+   }
+   #fresh{
+       margin-left: 10px;
+       color:grey
+   }
+   #fresho{
+       font-stretch: expanded;
+   }
+   #mrp{
+       font-size: 12px;
+       color:grey;
+       margin-top:15px;
+       text-decoration: line-through;
+   }
+   #pric{
+       font-size: 16px;
+       font-weight: bold;
+   }
+   #save{
+       font-size: 12px;
+       color:red
+   }
+  #taxes{
+    font-size: 12px;
+    color:grey
+  }
+  #cutle{
+    margin-left: 25px;
+    color:teal;
+ }
+ .sanju{
+     margin-left:20px;
+ }
+
+ #but{
+     height:35px;
+     width:30px;
+ }
+
+ #but1{
+     height:40px;
+     width:160px;
+     background-color:#84c225;
+     color:white;
+     border:none;
+     font-weight:bold;
+ }
+
+ #but2{
+     height:40px;
+     width:120px;
+     margin-left:5px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
