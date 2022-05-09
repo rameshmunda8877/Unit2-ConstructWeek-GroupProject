@@ -62,7 +62,7 @@
                                             Enter first name
                                         </lable>
         
-                                        <input type="text" id="first-name" name="first-name">
+                                        <input type="text" id="first-name" name="first-name" required>
                                     </div>
                                 </div>
                                 <!-- Last name -->
@@ -73,7 +73,7 @@
                                             Enter last name
                                         </lable>
         
-                                        <input type="text" id="last-name" name="last-name">
+                                        <input type="text" id="last-name" name="last-name" required>
                                     </div>
                                 </div>
                                 <!-- Contact no -->
@@ -84,7 +84,7 @@
                                             Enter contact number
                                         </lable>
         
-                                        <input type="number" id="contact-no" name="contact-no">
+                                        <input type="number" id="contact-no" name="contact-no" required>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                             House No
                                         </lable>
         
-                                        <input type="number" id="house-no" name="house-no">
+                                        <input type="number" id="house-no" name="house-no" required>
                                     </div>
                                 </div>
                                 <!-- Apartment name -->
@@ -152,7 +152,7 @@
                                             Enter city name
                                         </lable>
         
-                                        <input type="text" id="city-name" name="city-name">
+                                        <input type="text" id="city-name" name="city-name" required>
                                     </div>
                                 </div>
     
@@ -163,7 +163,7 @@
                                             Area details
                                         </lable>
          
-                                        <input type="text" id="area-details" name="area-details">
+                                        <input type="text" id="area-details" name="area-details" required>
                                     </div>
                                 </div>
                                 <!-- Pin code -->
@@ -174,7 +174,7 @@
                                             Enter Pincode
                                         </lable>
         
-                                        <input type="number" id="pin-code" name="pin-code">
+                                        <input type="number" id="pin-code" name="pin-code" required>
                                     </div>
                                 </div>
                             </div>
@@ -187,11 +187,11 @@
                                             Choose nick name for this address
                                         </lable>
         
-                                        <div class="btn-group">
+                                        <!-- <div class="btn-group">
                                             <button id="home" name="home">HOME</button>
                                             <button id="office" name="office">OFFICE</button>
                                             <button id="others" name="others">OTHERS</button>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -352,12 +352,12 @@
 
                     <div class="delivery-address">
                         
-
+                        <!-- Credit/Debit card -->
                         <div class="card-details">
 
                             <div class="row">
                                 
-                                <h4><input type="radio" id="card" name="card">Add Credit / Debit Card</h4>
+                                <h4><input type="radio" id="card" name="card" value="card">Add Credit / Debit Card</h4>
                             </div>
                             <!-- Card number -->
                             <div class="row">
@@ -368,7 +368,7 @@
                                             Card Number
                                         </lable>
         
-                                        <input type="number" id="card-no" name="card-no" placeholder="Enter card number">
+                                        <input type="number" id="card-no" name="card-no" placeholder="Enter card number" required>
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +381,7 @@
                                             Valid Thru
                                         </lable>
         
-                                        <input type="number" id="valid-thru" name="valid-thru" placeholder="MM - YY">
+                                        <input type="number" id="valid-thru" name="valid-thru" placeholder="MM - YY" required>
                                     </div>
                                 </div>
                                 <!-- cvv securty code -->
@@ -392,12 +392,21 @@
                                             CVV
                                         </lable>
         
-                                        <input type="number" id="cvv-security-code" name="cvv-security-cod" placeholder="Security Code">
+                                        <input type="number" id="cvv-security-code" name="cvv-security-cod" placeholder="Security Code" required>
                                     </div>
                                 </div>
 
                                 
                             </div> 
+                        </div>
+
+                        <div class="card-details">
+
+                            <div class="row">
+                                
+                                <h4><input type="radio" id="cod" name="cod" value="card">Cash/Card on Delivery</h4>
+                            </div>
+                            
                         </div>
 
                         
@@ -422,7 +431,7 @@
                         <h3>Apply Voucher</h3>
                         <form id="apply-voucher">
                             <input type="text">
-                            <button type="sub mit" class="apply-voucher-btn">Apply</button>
+                            <button type="submit" id="apply-voucher" class="apply-voucher-btn">Apply</button>
                         </form>
                     </div>
                 </div>

@@ -1,4 +1,8 @@
 document.querySelector("#form").addEventListener("submit", myFunction);
+
+
+
+
     var checkoutArr = JSON.parse(localStorage.getItem("checkouDetails")) || [];
 
         if(localStorage.getItem("checkouDetails")==null){
@@ -34,9 +38,12 @@ document.querySelector("#form").addEventListener("submit", myFunction);
 
         delivery_option:document.querySelector("#delivery-options").value,
 
+        card: document.querySelector("#card").value,
         card_no:document.querySelector("#card-no").value,
         valid_thru:document.querySelector("#valid-thru").value,
         security_code:document.querySelector("#cvv-security-code").value,
+
+        cod: document.querySelector("#cod").value,
       };
       checkoutArr.push(checkoutObj);
       //array of objects
@@ -48,6 +55,8 @@ document.querySelector("#form").addEventListener("submit", myFunction);
 
     form.addEventListener("submit", myFunction)
     function myFunction(){
-      window.alert("Order Successful!");
+      window.alert("Your Order is Successfully placed. Thank You!");
     }
     }
+
+    
