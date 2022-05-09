@@ -1,52 +1,33 @@
-#gift-order{
+#payment-details{
     border: 1px solid #dcdcdc;
     width: 100%;
     height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
-.gift-order{
+.payment-details{
     background: #f5f5f5;
     /* border: 1px solid red; */
     padding: 15px;
 }
-/* Addtress details */
-.gift-message{
-    /* border: 1px solid blue; */
+.card-details{
+    /* border: 1px solid red; */
     width: 100%;
-    height: auto;
+    height: auto; 
 }
-.recipients-name{
-    width: 25%;
-}
-#recipients-name{
-    
-}
-.your-name{
-    width: 25%;
-    
-}
-/* Addtress details  Row - 2*/
-.street-details{
-    width: 50%;
-}
-.landmark-details{
-    width: 50%;
-}
-/* Addtress details  Row - 3*/
-.city-name{
-    width: 25%;
-}
-.area-details{
-    width: 50%;
-}
-.pin-code{
-    width: 25%;
-}
-/* Addtress details  Row - 4*/
-.address-nickname{
 
+.card-no{
+    /* border: 1px solid green; */
+    width:100%;
 }
+
+/* Valid thru */
+.valid-thru{
+    width: 50%;
+}
+/* CVV security code */
+.cvv-security-code{
+    width: 50%;
+}
+
 .btn-group{
     margin-top: 10px;
 }
@@ -65,7 +46,7 @@
 }
 .add-address-btn{
     color: white;
-    background: #666666;
+    background: green;
     border: none;
 }
 .cancel-btn{
