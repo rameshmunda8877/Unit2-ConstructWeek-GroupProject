@@ -21,10 +21,11 @@
     /* background-color: rgb(128, 0, 21); */
 }
 
-#navbar>div>img{
+#navbar>div>a>img{
     height: 100%;
     width: 100%;
 }
+
 #navbar2{
     /* border: 1px solid brown; */
     display: grid;
