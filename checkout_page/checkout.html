@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="order-details.css">
     <link rel="stylesheet" href="delivery-address.css">
     <link rel="stylesheet" href="gift-order.css">
+    <link rel="stylesheet" href="delivery-options.css">
+    <link rel="stylesheet" href="payment-details.css">
 
     <link rel="icon"
           href="https://www.bigbasket.com/static/v2489/common/img/favicon.ico"
@@ -26,7 +28,7 @@
             <!-- Navbar header -->
             <div class="navbar-header">
                 <div class="logo">
-                    <a href="">
+                    <a href="../index.html">
                         <img src="https://www.bigbasket.com/static/v2489/common/img/bb_logo.png" alt="BB Logo">
                     </a>
                 </div>
@@ -39,7 +41,8 @@
         <div id="container">
             <!-- Checkout details -->
             <div class="checkout-details">
-                <!--  -->
+                <form action="" id="form">
+                    <!-- Dliver address -->
                 <div id="delivery-address">
                     <div class="row">
                         <h2>Delivery Address</h2>
@@ -50,7 +53,7 @@
                             <div class="row">
                                 <h4>Personal Details</h4>
                             </div>
-    
+                            <!-- First name -->
                             <div class="row">
                                 <div class="first-name">
                                     <div class="form-group">
@@ -59,10 +62,10 @@
                                             Enter first name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="first-name" name="first-name">
                                     </div>
                                 </div>
-    
+                                <!-- Last name -->
                                 <div class="last-name">
                                     <div class="form-group">
                                         <lable>
@@ -70,10 +73,10 @@
                                             Enter last name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="last-name" name="last-name">
                                     </div>
                                 </div>
-    
+                                <!-- Contact no -->
                                 <div class="contact-no">
                                     <div class="form-group">
                                         <lable>
@@ -81,17 +84,18 @@
                                             Enter contact number
                                         </lable>
         
-                                        <input type="number">
+                                        <input type="number" id="contact-no" name="contact-no">
                                     </div>
                                 </div>
                             </div>
                         </div>
-    
+                        
+                        <!-- Address details -->
                         <div class="address-details">
                             <div class="row">
                                 <h4>Address Details</h4>
                             </div>
-                            <!-- Address Details Row 1 -->
+                            <!-- House no -->
                             <div class="row">
                                 <div class="house-no">
                                     <div class="form-group">
@@ -100,10 +104,10 @@
                                             House No
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="number" id="house-no" name="house-no">
                                     </div>
                                 </div>
-    
+                                <!-- Apartment name -->
                                 <div class="apartment-name">
                                     <div class="form-group">
                                         <lable>
@@ -111,11 +115,11 @@
                                             Enter apartment name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="apartment" name="apartment">
                                     </div>
                                 </div>
                             </div>
-                            <!-- Address Details Row 2 -->
+                            <!-- Strret details -->
                             <div class="row">
                                 <div class="street-details">
                                     <div class="form-group">
@@ -124,7 +128,7 @@
                                             Enter street details
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="street" name="street">
                                     </div>
                                 </div>
     
@@ -135,11 +139,11 @@
                                             Enter landmark for easy reach out
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="landmark" name="landmark">
                                     </div>
                                 </div>
                             </div>
-                            <!-- Address Details Row 3 -->
+                            <!-- City name -->
                             <div class="row">
                                 <div class="city-name">
                                     <div class="form-group">
@@ -148,7 +152,7 @@
                                             Enter city name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="city-name" name="city-name">
                                     </div>
                                 </div>
     
@@ -158,11 +162,11 @@
                                             <span class="required">*</span>
                                             Area details
                                         </lable>
-        
-                                        <input type="text">
+         
+                                        <input type="text" id="area-details" name="area-details">
                                     </div>
                                 </div>
-    
+                                <!-- Pin code -->
                                 <div class="pin-code">
                                     <div class="form-group">
                                         <lable>
@@ -170,7 +174,7 @@
                                             Enter Pincode
                                         </lable>
         
-                                        <input type="number">
+                                        <input type="number" id="pin-code" name="pin-code">
                                     </div>
                                 </div>
                             </div>
@@ -184,9 +188,9 @@
                                         </lable>
         
                                         <div class="btn-group">
-                                            <button>HOME</button>
-                                            <button>OFFICE</button>
-                                            <button>OTHERS</button>
+                                            <button id="home" name="home">HOME</button>
+                                            <button id="office" name="office">OFFICE</button>
+                                            <button id="others" name="others">OTHERS</button>
                                         </div>
                                     </div>
                                 </div>
@@ -206,20 +210,20 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="button">
-                            <!-- Addres details Row - 6 -->
+                        <!-- Addres details Row - 6 -->
+                        <!-- <div class="button">
+                            
                             <div class="row">
                                 <div class="btn">
                                        <button type="submit" class="add-address-btn">ADD ADDRESS</button> 
                                        <button class="cancel-btn">CANCEL</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                
-                <!-- Gift ordere -->
+                <!-- Gift message -->
                 <div id="gift-order">
                     <div class="row" id="recipients-name">
                         <h2>Is this a gift order?</h2>
@@ -232,7 +236,7 @@
                             <div class="row">
                                 <h4>Details For Gift Message</h4>
                             </div>
-                            <!-- Address Details Row 1 -->
+                            <!-- Recipient's name -->
                             <div class="row">
                                 <div class="recipients-name">
                                     <div class="form-group">
@@ -240,10 +244,10 @@
                                             Enter recipient's name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="recipients-name" name="recipients-name">
                                     </div>
                                 </div>
-
+                                <!-- Your name -->
                                 <div class="your-name">
                                     <div class="form-group">
                                         <lable>
@@ -251,11 +255,11 @@
                                             Enter your name
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="your-name" name="your-name">
                                     </div>
                                 </div>
                             </div>
-                            <!-- Address Details Row 2 -->
+                            <!-- Message -->
                             <div class="row">
                                 <div class="street-details">
                                     <div class="form-group">
@@ -264,7 +268,7 @@
                                             Enter message
                                         </lable>
         
-                                        <input type="text">
+                                        <input type="text" id="message" name="message">
                                     </div>
                                 </div>
 
@@ -276,41 +280,49 @@
 
                         
                     </div>
-                    <div class="button">
-                        <!-- Addres details Row - 6 -->
+
+                    <!-- Addres details Row - 6 -->
+                    <!-- <div class="button">
                         <div class="row">
                             <div class="btn">
                                     <button type="submit" class="add-address-btn">SAVE AND CONTINUE</button> 
                                     <button class="cancel-btn">CANCEL</button>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 
                 <!-- Delivery options -->
                 <div id="delivery-options">
                     <div class="row"><h2>Delivery Options</h2></div>
 
-                    <div class="delivery-address">
+                    <div class="delivery-options">
                         
 
-                        <div class="address-details">
+                        <div class="delivery-options-details">
+
+                            <!-- <div class="row">
+                                
+                                <h4><input type="radio">Add Credit / Debit Card</h4>
+                            </div> -->
                             <div class="row">
-                                <input type="radio" />
-                                <span>Default Delivery Option 
-                                    <span>1</span> Shipment
+                                
+                                <span>
+                                    <input type="radio" />
+                                    Default Delivery Option 
+                                    <span id="ship-qty">1</span> Shipment
                                     ,
                                         <span>Delivery Charge</span>: <span>FREE</span>
                                 </span>    
                                     
                             </div>
-                            <!-- Address Details Row 1 -->
+                            <!-- Delivery options -->
                             <div class="row">
-                                <div class="house-no">
+                                <div class="delivery-options-select">
                                     <div class="form-group">
-                                        <span>Shipment <span>1</span> : <span>Standar Delivery</span></span>
+                                        <span>Shipment <span id="ship-qty">1</span> : <span>Standard Delivery</span></span>
 
-                                        <select name="" id="">
+                                        <select name="" id="delivery-options">
                                             <option value="">TOMORROW 7:00 AM - 10:00 AM</option>
                                             <option value="">TOMORROW 10:00 AM - 1:00 PM</option>
                                             <option value="">TOMORROW 4:00 PM - 7:00 PM</option>
@@ -321,14 +333,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="button">
-                        <!-- Addres details Row - 6 -->
+
+                    <!-- Addres details Row - 6 -->
+                    <!-- <div class="button">
                         <div class="row">
                             <div class="btn">
                                     <button type="submit" class="add-address-btn">PROCEED TO PAYMENT</button> 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Payment details -->
@@ -340,61 +353,57 @@
                     <div class="delivery-address">
                         
 
-                        <div class="address-details">
+                        <div class="card-details">
 
                             <div class="row">
                                 
-                                <h4><input type="radio">Add Credit / Debit Card</h4>
+                                <h4><input type="radio" id="card" name="card">Add Credit / Debit Card</h4>
                             </div>
-                            <!-- Address Details Row 1 -->
+                            <!-- Card number -->
                             <div class="row">
-                                
-
-                                <div class="apartment-name">
+                                <div class="card-no">
                                     <div class="form-group">
                                         <lable>
                                             <!-- <span class="required">*</span> -->
                                             Card Number
                                         </lable>
         
-                                        <input type="number" placeholder="Enter card number">
+                                        <input type="number" id="card-no" name="card-no" placeholder="Enter card number">
                                     </div>
                                 </div>
                             </div>
-                            <!-- Address Details Row 2 -->
+                            <!-- Valid thru -->
                             <div class="row">
-                                <div class="street-details">
+                                <div class="valid-thru">
                                     <div class="form-group">
                                         <lable>
                                             <!-- <span class="required">*</span> -->
                                             Valid Thru
                                         </lable>
         
-                                        <input type="number" placeholder="MM - YY">
+                                        <input type="number" id="valid-thru" name="valid-thru" placeholder="MM - YY">
                                     </div>
                                 </div>
-
-                                <div class="street-details">
+                                <!-- cvv securty code -->
+                                <div class="cvv-security-code">
                                     <div class="form-group">
                                         <lable>
                                             <!-- <span class="required">*</span> -->
                                             CVV
                                         </lable>
         
-                                        <input type="number" placeholder="Security Code">
+                                        <input type="number" id="cvv-security-code" name="cvv-security-cod" placeholder="Security Code">
                                     </div>
                                 </div>
 
                                 
-                            </div>
-                            <!-- Addres details Row - 4 -->
-                            
+                            </div> 
                         </div>
 
                         
                     </div>
                     <div class="button">
-                        <!-- Addres details Row - 6 -->
+                        <!-- Place order & pay -->
                         <div class="row">
                             <div class="btn">
                                     <button type="submit" class="add-address-btn">Place order & Pay</button> 
@@ -402,6 +411,7 @@
                         </div>
                     </div>
                 </div>
+                </form>
                 
             </div>
 
@@ -421,14 +431,14 @@
                     <div class="basket-value">
                         <h4>Basket Value</h4>
                         <h5>Rs
-                            <span>66</span>
+                            <span id="basket-value">66</span>
                         </h5>
                     </div>
 
                     <div class="basket-value">
                         <h4>Delivery Charges</h4>
                         <h5>
-                            <span>FREE</span>
+                            <span id="delivery-charges">FREE</span>
                         </h5>
                     </div>
                     <hr>
@@ -437,7 +447,7 @@
                             <h4>Total Amount Payable</h4>
                             <h5>
                                 <span>Rs</span>
-                                <span>66</span>
+                                <span id="total-amount">66</span>
                             </h5>
                         </div>
 
@@ -445,7 +455,7 @@
                             <h4>Total Savings</h4>
                             <h5>
                                 <span>Rs</span>
-                                <span>16.50</span>
+                                <span id="total-savings">16.50</span>
                             </h5>
                         </div>
 
@@ -456,3 +466,9 @@
     </div>
 </body>
 </html>
+
+<!-- Checkout details -->
+<script src="checkout-details.js"></script>
+
+<!-- Cart details -->
+<script src="cart-details.js"></script>
