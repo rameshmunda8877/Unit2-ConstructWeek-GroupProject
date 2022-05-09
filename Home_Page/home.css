@@ -89,18 +89,18 @@ text-decoration: none;
    margin-top: -10px; 
    
 }
-#box2>img{
-    height: 60%;
-    width: 30%;
-    padding-top: 20px;
-    margin-left: 10px;
+ #box2>#img1>img{
+    height: 100%;
+    width: 90%;
+    padding-top: 0px;
+    margin-left: 0px;
    
    
 }
-#box2>img+p{
+#box2>a+p{
  font-size: 20px;
  font-family: sans-serif;
- margin-top: 20px;
+ margin-top:20px
 }
 
 
