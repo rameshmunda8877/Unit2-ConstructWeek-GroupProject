@@ -56,7 +56,7 @@ document.querySelector("#form").addEventListener("submit", myFunction);
     form.addEventListener("submit", myFunction)
     function myFunction(){
       window.alert("Your Order is Successfully placed. Thank You!");
-      window.location.href="../Home_Page/index.html";
+      window.location.href="../index.html";
     }
     }
 
