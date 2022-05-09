@@ -49,6 +49,13 @@
      border: none;
  }
 
+ #navbar2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #84C225;
+}
+
  #navbar2>div>button {
      height: 100%;
      width: 100%;
