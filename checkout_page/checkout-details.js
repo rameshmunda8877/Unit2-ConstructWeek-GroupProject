@@ -41,7 +41,13 @@ document.querySelector("#form").addEventListener("submit", myFunction);
       checkoutArr.push(checkoutObj);
       //array of objects
 
+      
       localStorage.setItem("checkouDetails", JSON.stringify(checkoutArr));
     //   document.querySelector("#name").value = "";
     //   document.querySelector("#email").value = "";
+
+    form.addEventListener("submit", myFunction)
+    function myFunction(){
+      window.alert("Order Successful!");
+    }
     }
