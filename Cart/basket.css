@@ -27,9 +27,13 @@ body {
 
 #yourBasket {
     padding-top: 10px;
-    /* font-weight: ; */
+    font-size: 24px;
     font-weight: 36px;
     /* border: 1px solid black; */
+}
+
+#basketHrLine{
+    margin-top: -20px;
 }
 
 #noItem {
@@ -60,7 +64,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 40px;
     cursor: pointer;
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(252, 252, 252);
+
 
 }
 
@@ -145,6 +150,7 @@ body {
     height: auto;
     margin-top: -13px;
     height: 83px;
+    border-bottom: 1px solid black;
     /* padding-left: 30px; */
     /* border: 1px solid black; */
 }
@@ -251,15 +257,7 @@ body {
     border-left: 0px;
 }
 
-/* input{
-    width: 20px;
-    height: 18px;
-    border: 1px solid rgb(209, 209, 209);
-    text-align: center;
-}
-input:focus{
-    outline: none;
-} */
+
 
 #emptyBasket {
     width: 150px;
@@ -315,7 +313,6 @@ input:focus{
 #subTotalAndTotal {
     /* border: 1px solid black; */
     width: 75%;
-
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -343,6 +340,7 @@ input:focus{
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 13px;
 }
 
 #checkoutTotal {
@@ -352,10 +350,12 @@ input:focus{
     /* border-bottom: 1px solid #000; */
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 #checkoutButton {
+    display: block;
+    margin: auto;
     border: 0px;
     height: 60px;
     width: 40%;
@@ -363,7 +363,7 @@ input:focus{
     background: linear-gradient(180deg, #fee77c 0, #f2ca76 99%);
     border-radius: 7px;
     margin-top: 15px;
-    margin-left: 300px;
+    
 }
 
 #deliveryInstruction {
