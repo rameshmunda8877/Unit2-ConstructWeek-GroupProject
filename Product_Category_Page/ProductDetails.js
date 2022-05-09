@@ -482,6 +482,10 @@ var productsDetails = [
        function AddToCart(elem){
         addCartProducts.push(elem);
 
-        localStorage.setItem("mini-cart", JSON.stringify(addCartProducts));
-        alert("Added succesfully")
+        
+        var a = confirm("Added succesfully")
+        if(a){
+            localStorage.setItem("mini-cart", JSON.stringify(addCartProducts));
+        }
+        
       }
