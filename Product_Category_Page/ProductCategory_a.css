@@ -1,0 +1,302 @@
+ /* NAVBAR CSS START */
+ #navbar{
+    border: 1px solid brown;
+    display: grid;
+    grid-template-columns: 22% 65% 13%;
+    grid-template-rows: 110px;
+    width: 75%;
+    margin: auto;
+    grid-template-areas: "a b c";
+}
+#navbar>div:nth-child(1){
+    grid-area: a;
+    /* background-color: green; */
+}
+#navbar>div:nth-child(2){
+    grid-area: b;
+    /* background-color: rgb(41, 0, 128); */
+}
+#navbar>div:nth-child(3){
+    grid-area: c;
+    /* background-color: rgb(128, 0, 21); */
+}
+#navbar>div{
+    border: 1px solid blue;
+}
+#navbar2{
+    border: 1px solid brown;
+    display: grid;
+    grid-template-columns: 22% 10% 15%;
+    grid-template-rows: 40px;
+    width: 75%;
+    margin: auto;
+}
+#navbar2>div{
+    border: 1px solid blue;
+}
+#nav_right{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 35px 75px;
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+}
+#nav_right>div{
+    border: 1px solid black;
+}
+
+#nav_middle{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 35px 75px;
+    border: 1px solid black;
+    margin: auto;
+    width: 100%;
+}
+#nav_middle>div{
+    border: 1px solid black;
+}
+#nm{
+    display: grid;
+    grid-template-columns: 94% 06%;
+    grid-template-rows: 30px;
+    border: 1px solid black;
+    width: 75%;
+    margin: auto;
+    margin-left: 15px;
+}
+#nm>div{
+    border: 1px solid green;
+}
+
+#nt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 30px;
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    margin-left: 59%;
+}
+#nt>div{
+    border: 1px solid green;
+}
+
+/* NAVBAR CSS END */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HOME PAGE LINKAGE  */
+
+#buttonlinkage{
+    margin: auto;
+    margin-left: 12.5%;
+    margin-top: 10px;
+}
+#buttonlinkage>button{
+    border: none;
+    background-color: white;
+}
+
+/* PRODUCT PAGE CSS START */
+
+#productView1{
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    margin-top: 15px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+#productView2{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-template-rows: auto;
+    margin: auto;
+    width: 73.5%;
+    /* border:1px solid black; */
+}
+#productView2>div{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+}
+#varietyOfProducts{
+    display: grid;
+    grid-template-rows: auto;
+    margin: auto;
+    row-gap: 3px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#varietyOfProducts>div{
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#varietyOfProducts>div>form>select{
+    cursor: pointer;
+    color: rgb(103, 99, 99);
+}
+h3{
+    margin-left: 5px;
+    margin-bottom: 2px;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    color: rgb(97, 94, 94);
+}
+#varietyOfProducts>div>h4{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+#varietyOfProducts>div>p{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#brandSearch{
+    display: grid;
+    grid-template-rows: 30px;
+    margin: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#productDetails{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 130px auto;
+    margin: auto;
+    width: 100%;
+}
+#productDetails>div{
+    /* border: 1px solid green; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+#PD1>div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;  
+    /* border: 1px solid blue;  */
+}
+#PD1>div>h2{
+    margin-left: 10px;
+    color: rgb(111, 101, 101);
+    text-decoration-line: underline;
+  text-decoration-style: double;
+}
+#popularity{
+    height: 25px;
+    margin-top:20px;
+    margin-right: 5px;
+    cursor: grab;
+    color: grey;
+}
+#underline>p{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    gap: 10px;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    font-weight: bold;
+    color: rgb(24, 96, 93);
+}
+#underline>p>img{
+    margin: auto;
+    height: 40px;
+    width: 50px;
+    margin-top: -10px;
+}
+#detailedProductViews{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+#detailedProductViews>div{
+    /* border: 1px solid red; */
+    padding: 5px 7px 7px 7px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#detailedProductViews>div>div{
+    color: blue;
+    height: 20px;
+    width: 95%;
+    margin-left: -3px;
+    margin-top: -2.5px;
+    position: absolute;
+    /* border: 0.5px solid red; */
+    text-align: center;
+    color: rgb(226, 62, 62);
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#detailedProductViews>div>div+img{
+    margin-top: 25px;
+    width: 90%;
+    height: auto;
+}
+#detailedProductViews>div>h4{
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+#detailedProductViews>div>img+p{
+    color: rgb(107, 97, 223);
+    margin-top: -2px;
+}
+
+#detailedProductViews>div>p+img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+#detailedProductViews>div>s+span{
+    color: green;
+    margin-left: 5px;
+}
+#detailedProductViews>div>s{
+    color: rgb(212, 88, 88);
+    margin-left: 5px;
+}
+#detailedProductViews>div>span+p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(0, 166, 255);
+}
+#detailedProductViews>div>button{
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: rgb(192, 185, 185);
+    border: 1px solid blue;
+    padding: 3px 4px 3px 4px;
+    cursor: pointer;
+}
+#detailedProductViews>div>button:hover{
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+    /* link of category */
+a:link {
+    text-decoration: none;
+}
+      
+a:visited {
+    text-decoration: none;
+}
+      
+a:hover {
+    text-decoration: underline;
+}
+      
+a:active {
+text-decoration: underline;
+}
+
+
+
+
+
