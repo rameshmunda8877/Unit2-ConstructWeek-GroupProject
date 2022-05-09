@@ -22,7 +22,7 @@ form.addEventListener("submit",function(event){
    {
        alert("login succesfull");
        localStorage.setItem("signin",JSON.stringify(userdata));
-       window.location.href="home.html"
+       window.location.href="Product.html"
    }
    else{
        alert("user does not exist")

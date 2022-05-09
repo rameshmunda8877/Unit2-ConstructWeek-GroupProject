@@ -15,13 +15,13 @@ function Moreless() {
 
 }
 
-// chnges by Khlaid Shah Start
+}
 var basketDiv = document.querySelector("#box2")
 basketDiv.addEventListener("click",goToBasketFunction)
 function goToBasketFunction(){
   window.location.href = "./Cart/cart.html"
 }
-//change by manoj
+
 
 
 
@@ -47,13 +47,11 @@ const swiper = new Swiper('.swiper', {
 
 });
 
-// chnges by Khlaid Shah Start
+
 var basketDiv = document.querySelector("#box2")
 basketDiv.addEventListener("click",goToBasketFunction)
 function goToBasketFunction(){
   window.location.href = "./Cart/cart.html"
 }
-// chnges by Khlaid Shah End
-
 
 
