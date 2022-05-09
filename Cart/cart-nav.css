@@ -7,6 +7,7 @@
      width: 75%;
      margin: auto;
      grid-template-areas: "a b c";
+     
  }
 
  #navbar>div:nth-child(1) {
@@ -16,7 +17,7 @@
 
  #navbar>div:nth-child(2) {
      grid-area: b;
-     background-color: whitesmoke;
+     background-color: white;
  }
 
  #navbar>div:nth-child(3) {
