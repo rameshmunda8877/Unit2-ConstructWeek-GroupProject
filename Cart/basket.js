@@ -6,7 +6,7 @@ var container = document.querySelector("#container")
 var details = JSON.parse(localStorage.getItem("mini-cart"))
 
 // local Storage for checkout
-var totalamount = JSON.parse(localStorage.getItem("amount"))
+var totalamount = JSON.parse(localStorage.getItem("amount")) || []
 
 // local Storage for checkout
 var saveamount = JSON.parse(localStorage.getItem("savedamount"))
@@ -31,7 +31,7 @@ function display(data) {
         continueShoppingButton.addEventListener("click", shoppingFunction)
 
         function shoppingFunction() {
-            window.location.href = "../index.html"
+            window.location.href = "../Home_Page/index.html"
         }
         document.querySelector("#container").append(noItem, hrline, continueShoppingButton)
     }
@@ -133,7 +133,8 @@ function display(data) {
                     sav = sav - k
                     var save = sav.toFixed(2)
                     saving.innerText = "Rs." + " " + save
-                    localStorage.setItem("amount", sub)
+                    // totalamount.push(sub)
+                    localStorage.setItem("amount", totalamount)
                     localStorage.setItem("savedamount", sav)
                 }
             }
@@ -156,8 +157,14 @@ function display(data) {
                 sav = sav + k
                 var save = sav
                 saving.innerText = "Rs." + " " + save.toFixed(2)
+
+                // khalid(totalamount)
+                // totalamount.push(sub)
+
+                
                 localStorage.setItem("amount", sub)
                 localStorage.setItem("savedamount", JSON.stringify(sav))
+            
             }
 
             incDecQuantity.append(pMinus, pQuantity, pPlus)
@@ -239,21 +246,21 @@ function display(data) {
 
 
         // checkout sub total
-        const checkoutSubtotalValue = document.createElement('div');
+        var checkoutSubtotalValue = document.createElement('div');
         checkoutSubtotalValue.setAttribute("id", "checkoutSubtotalValue")
-        const checkoutSubtotalValuep1 = document.createElement('p');
+        var checkoutSubtotalValuep1 = document.createElement('p');
         checkoutSubtotalValuep1.innerText = "Rs. " + Number(totalamount).toFixed(2)
-        const checkoutSubtotalValuep2 = document.createElement('p');
+        var checkoutSubtotalValuep2 = document.createElement('p');
         checkoutSubtotalValuep2.innerText = "**"
         checkoutSubtotalValue.append(checkoutSubtotalValuep1, checkoutSubtotalValuep2)
         checkoutSubTotal.append(checkoutSubtotalAndDeliveryText, checkoutSubtotalValue)
 
         // checkout total
-        const checkoutTotal = document.createElement('div');
+        var checkoutTotal = document.createElement('div');
         checkoutTotal.setAttribute("id", "checkoutTotal")
-        const checkoutTotalp1 = document.createElement('p');
+        var checkoutTotalp1 = document.createElement('p');
         checkoutTotalp1.innerText = "TOTAL"
-        const checkoutTotalp2 = document.createElement('p');
+        var checkoutTotalp2 = document.createElement('p');
         checkoutTotalp2.innerText = "Rs. " + Number(totalamount).toFixed(2)
         checkoutTotal.append(checkoutTotalp1, checkoutTotalp2)
 
@@ -313,6 +320,14 @@ function display(data) {
 
     // continue shopping button function
     function shoppingFunction() {
-        window.location.href = "../index.html"
+        window.location.href = "../Home_Page/index.html"
+    }
+}
+
+function khalid(shah){
+    var sum = 0;
+    for(var i=0; i<shah.length; i++)
+    {
+        sum += shah[i]
     }
 }
