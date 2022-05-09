@@ -39,10 +39,15 @@ function display(data) {
         yourBasket.innerText = "Your Basket"
 
         const basketHrLine = document.createElement('hr');
+        basketHrLine.setAttribute("id","basketHrLine")
 
         const promoButton = document.createElement('button');
         promoButton.setAttribute("id", "availPromobtn")
         promoButton.innerText = "VIEW AVAILABLE PROMOS"
+        promoButton.addEventListener("click",promoFunction)
+        function promoFunction(){
+            alert("No Promos Available for Now")
+        }
 
         const divLikeTable = document.createElement('div');
         divLikeTable.setAttribute("id", "divLikeTable")
@@ -174,6 +179,7 @@ function display(data) {
             })
 
             const saving = document.createElement('p');
+            saving.setAttribute("id","savingBorder")
             saving.style.color = "#BE1E2D"
             var sav = (elem.productStrikeMRP - elem.productMRP)
             var save = sav
@@ -304,5 +310,9 @@ function display(data) {
         data.splice(index, 1)
         localStorage.setItem("mini-cart", JSON.stringify(details))
         window.location.reload()
+    }
+
+    function shoppingFunction(){
+        window.location.href = "../index.html"
     }
 }
