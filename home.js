@@ -55,3 +55,8 @@ function goToBasketFunction(){
 }
 
 
+// document.querySelector("#labelforCat").addEventListener("click",goToCategoryFunction)
+
+// function goToCategoryFunction(){
+//   window.location.href = "../Product_Category_Page/Product.html"
+// }
