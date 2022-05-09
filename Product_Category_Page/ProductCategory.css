@@ -55,6 +55,12 @@
     background-color: #84C225;
     border: none;
 }
+#navbar2>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #84C225;
+}
 #nav_right{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -118,7 +124,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     width: 18px;
 }
 #nt>div>img+p{
-    margin-top: 3px;
+    margin-top: 8px;
 }
 #locationSelection{
     border: none;
@@ -215,7 +221,7 @@ h3{
 }
 #productDetails>div{
     /* border: 1px solid green; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 #PD1>div{
     display: flex;
@@ -261,7 +267,7 @@ h3{
     /* border: 1px solid red; */
     padding: 5px 7px 7px 7px;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 #detailedProductViews>div>div{
     color: blue;

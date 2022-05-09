@@ -4,38 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Appliances & Electricals store. Order Now</title>
     <link rel="stylesheet" href="ProductCategory_a.css">
     <link rel="stylesheet" href="productview_a.css">
     <link rel="stylesheet" href="search.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CategoryDropdown.css">
 </head>
 <body>
 
     <!-- NAVBAR HTML START -->
 
     <div id="navbar">
-        <div>1</div>
-        <div id="nav_middle"> 
+        <div>
+            <a href="../Home_Page/index.html">
+            <img src="https://assets-v2.poshvine.com/fv1ys41t6tu1zwu9kbmiac7ri4gs?response-content-disposition=inline%253B%2520filename%253D%2522BigBasket.jpg%2522%253B%2520filename%252A%253DUTF-8%2527%2527BigBasket.jpg&response-content-type=image%2Fjpeg" >
+            </a>
+        </div>
+        <div id="nav_middle">
             <div id="nt">
-                <div>st1</div>
-                <div>st2</div>
+                <div>
+                    <img src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt=""> 
+                    <p>1860 123 1000</p>
+                    </div>
+                <div>
+                    <select id="locationSelection" onchange="handleLocation()">
+                        <option> 800001, Patna</option>
+                        <option value="560004, Banglore">560004, Banglore</option>
+                        <option value="226003, Lucknow">226003, LucknowS</option>
+                        <option value="110001, Delhi">110001, Delhi</option>                                                     
+                     </select>
+                </div>
             </div>
-            <div id="nm">
-                <div>sb1</div>
-                <div>sb2</div>
+            <div id="nm">   
+                <div>
+                      <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                </div>
             </div>
         </div>
         <div id="nav_right">
-            <div>a</div>
-            <div>b</div>
+            <div>
+               <p><a href="../Home_Page/login.html">login/sign Up</a></p> 
+            </div>
+            <div> 
+                <a href="../Cart/cart.html">
+                <img src="https://previews.123rf.com/images/asmati/asmati1602/asmati160202545/51982777-cesta-icono-rojo-en-el-fondo-gris.jpg" alt="basket logo"></a>
+            </div>
         </div>
     </div>
 
     <div id="navbar2">
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+        <div>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">* 💁 SHOP BY CATEGORY 💁‍♀️ *</button>
+             <div id="myDropdown" class="dropdown-content">
+                <a href="Product.html"> KITCHEN, GARDEN & PETS</a>
+                <a href="./DummyPage.html" >FRUITS & VEGETABLES</a>
+                <a href="./DummyPage.html" >BAKERY, CAKES & DAIRY</a>
+                <a href="./DummyPage.html" target="_blank">BEVERAGES</a>
+                <a href="./DummyPage.html" target="_blank">SNACKS & BRANDED FOODS</a>
+                <a href="./DummyPage.html" target="_blank">CLEANING AND HOUSE HOLD</a>
+                <a href="./DummyPage.html" target="_blank">GOURMET & HOUSEHOLD</a>
+             </div>
+            </div>
+        </div>
+        <div>
+            <button> <a href="DummyPage.html"> 🤩 Offers 🤩 </a></button>
+        </div>
+        <div>
+            <button> <a href="DummyPage.html"> 🏡 BB Speciality 🏡 </a> </button>
+        </div>
     </div>
 
  <!-- NAVBAR HTML END -->
@@ -43,7 +84,7 @@
  <!-- HOME PAGE LINKAGE -->
 
    <div id ="buttonlinkage">
-    <button><a href="index.html" >HOME ></a></button>
+    <button><a href="../Home_Page/index.html" >HOME ></a></button>
     <button><a href="Product.html"> KITCHEN, GARDEN & PETS ></a></button>
     <button><a href="Product_a.html"> APPLIANCES & ELECTRICALS</a></button>
    </div> 
@@ -76,7 +117,7 @@
                 <h4><a href="Product.html" >Kitchen, Garden & Pets</a></h4>
                 <h4><a href="Product_a.html" >Appliances & Electricals</a></h4>
                 <p><a href="DummyPage.html" >Battery & Electrical</a> </p>
-                <p><a href="DummyPage.html" target="_blank">CFL & LED Bulbs</a> </p>
+                <p><a href="../sub_product_page/sub_product.html" target="_blank">CFL & LED Bulbs</a> </p>
             </div>
             <!-- Brand Search -->
             <h3>Brand</h3>
@@ -178,3 +219,5 @@
 <script src="ProductSorting_a.js"></script>
 
 <script src="search.js"></script>
+
+<script src="CategoryDropdown.js"></script>
