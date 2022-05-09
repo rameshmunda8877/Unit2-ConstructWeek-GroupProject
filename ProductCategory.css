@@ -1,10 +1,10 @@
  /* NAVBAR CSS START */
  #navbar{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     display: grid;
     grid-template-columns: 22% 65% 13%;
     grid-template-rows: 110px;
-    width: 75%;
+    width: 78%;
     margin: auto;
     grid-template-areas: "a b c";
 }
@@ -14,73 +14,115 @@
 }
 #navbar>div:nth-child(2){
     grid-area: b;
-    /* background-color: rgb(41, 0, 128); */
+    background-color: whitesmoke;
 }
 #navbar>div:nth-child(3){
     grid-area: c;
     /* background-color: rgb(128, 0, 21); */
 }
-#navbar>div{
-    border: 1px solid blue;
+
+#navbar>div>img{
+    height: 100%;
+    width: 100%;
 }
 #navbar2{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     display: grid;
     grid-template-columns: 22% 10% 15%;
     grid-template-rows: 40px;
-    width: 75%;
+    width: 78%;
     margin: auto;
+    background-color: whitesmoke;
 }
-#navbar2>div{
-    border: 1px solid blue;
+
+#categorySelection{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: #84C225;
+    border: none;
+}
+#navbar2>div>button{
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    color: rgb(72, 71, 71);
+    border: none;
+}
+#navbar2>div>button:hover{
+    color: white;
+    background-color: #84C225;
+    border: none;
 }
 #nav_right{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 35px 75px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     width: 100%;
 }
 #nav_right>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+#nav_right>div>p{
+    margin-top: 1%;
+    margin-left: 35%;
+}
+#nav_right>div>a{
+   padding: 5px;
+}
+#nav_right>div>a>img{
+width: 90%;
+height: 90%;
+margin-left: 5%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 #nav_middle{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 35px 75px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     width: 100%;
 }
-#nav_middle>div{
-    border: 1px solid black;
-}
+
 #nm{
     display: grid;
-    grid-template-columns: 94% 06%;
     grid-template-rows: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 75%;
     margin: auto;
     margin-left: 15px;
-}
-#nm>div{
-    border: 1px solid green;
 }
 
 #nt{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 40%;
     margin: auto;
     margin-left: 59%;
 }
 #nt>div{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    font-size: 13px;
+    display: flex;
+}
+#nt>div>img{
+    height: 25px;
+    width: 18px;
+}
+#nt>div>img+p{
+    margin-top: 3px;
+}
+#locationSelection{
+    border: none;
+    background-color: whitesmoke;
 }
 
 /* NAVBAR CSS END */
@@ -153,6 +195,7 @@ h3{
 #varietyOfProducts>div>p{
     margin-left: 20px;
     margin-top: -10px;
+    font-size: 15px;
 }
 
 #brandSearch{
