@@ -1,8 +1,8 @@
 /* order details */
 #order-details{
-    border: 1px solid teal;
+    border: 1px solid #dcdcdc;
     width: 20%;
-    height: auto;
+    height: 50%;
     padding: 10px;
 }
 .apply-voucher{
