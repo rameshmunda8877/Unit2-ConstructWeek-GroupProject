@@ -371,7 +371,6 @@ body {
     margin-left: 10px;
 }
 
-
-/* font-family: 'Roboto', sans-serif; */
-
-/* font-family: 'Lato', sans-serif; */
+button:hover{
+    color: red;
+}

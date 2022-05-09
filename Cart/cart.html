@@ -15,10 +15,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="basket.css">
-
+    <link rel="stylesheet" href="./cart-nav.css">
+    <link rel="stylesheet" href="../Product_Category_Page/search.css">
+    <link rel="stylesheet" href="../Product_Category_Page/CategoryDropdown.css">
 </head>
 
 <body>
+    
+    
+    <div id="navbar">
+        <div>
+            <a href="../Home_Page/index.html">
+            <img src="https://assets-v2.poshvine.com/fv1ys41t6tu1zwu9kbmiac7ri4gs?response-content-disposition=inline%253B%2520filename%253D%2522BigBasket.jpg%2522%253B%2520filename%252A%253DUTF-8%2527%2527BigBasket.jpg&response-content-type=image%2Fjpeg" >
+            </a>
+        </div>
+        <div id="nav_middle">
+            <div id="nt">
+                <div>
+                    <img src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt=""> 
+                    <p>1860 123 1000</p>
+                    </div>
+                <div>
+                    <select id="locationSelection" onchange="handleLocation()">
+                        <option> 800001, Patna</option>
+                        <option value="560004, Banglore">560004, Banglore</option>
+                        <option value="226003, Lucknow">226003, LucknowS</option>
+                        <option value="110001, Delhi">110001, Delhi</option>                                                     
+                     </select>
+                </div>
+            </div>
+            <div id="nm">   
+                <div>
+                    <form class="example" action="action_page.php" >
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <div id="nav_right">
+            <div>
+               <p><a href="login.html">login/sign Up</a></p> 
+            </div>
+            <div> 
+                <a href="./cart.html">
+                <img src="https://previews.123rf.com/images/asmati/asmati1602/asmati160202545/51982777-cesta-icono-rojo-en-el-fondo-gris.jpg" alt="basket logo"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="navbar2">
+        <div class="shopCategory">
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">* 💁 SHOP BY CATEGORY 💁‍♀️ *</button>
+             <div id="myDropdown" class="dropdown-content">
+                <a href="Product.html"> KITCHEN, GARDEN & PETS</a>
+                <a href="./DummyPage.html" >FRUITS & VEGETABLES</a>
+                <a href="./DummyPage.html" >BAKERY, CAKES & DAIRY</a>
+                <a href="./DummyPage.html" target="_blank">BEVERAGES</a>
+                <a href="./DummyPage.html" target="_blank">SNACKS & BRANDED FOODS</a>
+                <a href="./DummyPage.html" target="_blank">CLEANING AND HOUSE HOLD</a>
+                <a href="./DummyPage.html" target="_blank">GOURMET & HOUSEHOLD</a>
+             </div>
+            </div>
+        </div>
+        <div>
+            <button> 🤩 Offers 🤩</button>
+        </div>
+        <div>
+            <button> 🏡 BB Speciality 🏡</button>
+        </div>
+    </div>
+
+ <!-- NAVBAR HTML END -->
+
+
+
+
 
     <div id="nothingInBasket">
 
@@ -104,3 +177,4 @@
 </html>
 
 <script src="basket.js"></script>
+<script src="categoryDropdown.js"></script>
