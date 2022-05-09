@@ -400,7 +400,8 @@ var productsDetails = [
 
     localStorage.setItem("productsDisplayed_LS", JSON.stringify(productsDetails));
 
-    var addCartProducts = [];
+    // JSON.parse(localStorage.getItem("mini-cart")) ||    // added by Khalid Shah
+    var addCartProducts = JSON.parse(localStorage.getItem("mini-cart")) || [];
 
     var miniBaskets=document.querySelector("#detailedProductViews");
 
