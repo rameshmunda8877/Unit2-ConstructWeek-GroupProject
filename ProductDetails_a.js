@@ -12,6 +12,7 @@ var productsDetails = [
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
      priceFilter:"Rs 201 to Rs 500",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -25,6 +26,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 501 to Rs 1000",
+        category: "Appliances & Electricals",
     },
 
      {
@@ -38,6 +40,7 @@ var productsDetails = [
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
      priceFilter:"Rs 101 to Rs 200",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -51,6 +54,7 @@ var productsDetails = [
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
      priceFilter:"Rs 101 to Rs 200",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -64,6 +68,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 501 to Rs 1000",
+        category: "Appliances & Electricals",
     },
     {
         offerPercentage:"Get 46% Off 🌟",
@@ -77,6 +82,7 @@ var productsDetails = [
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 101 to Rs 200",
         LED_Bulb_Wattage:"6 - 9 W",
+        category: "Appliances & Electricals",
     },
     {
         offerPercentage:"Get 54% Off 🌟",
@@ -90,6 +96,7 @@ var productsDetails = [
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 101 to Rs 200",
         LED_Bulb_Wattage:"6 - 9 W",
+        category: "Appliances & Electricals",
     },
     {
         offerPercentage:"Get 16% Off 🌟",
@@ -102,6 +109,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 51 to Rs 100",
+        category: "Appliances & Electricals",
     },
 
         {
@@ -115,6 +123,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         priceFilter:"Rs 101 to Rs 200",
+        category: "Appliances & Electricals",
         },
         {
             offerPercentage:"Get 42% Off 🌟",
@@ -128,6 +137,7 @@ var productsDetails = [
             cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
             priceFilter:"Rs 201 to Rs 500",
             LED_Bulb_Wattage:"6 - 9 W",
+            category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 45% Off 🌟",
@@ -141,6 +151,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 201 to Rs 500",
                 LED_Bulb_Wattage:"6 - 9 W",
+                category: "Appliances & Electricals",
                 },
                 {
                     offerPercentage:"Get 29% Off 🌟",
@@ -154,6 +165,7 @@ var productsDetails = [
                     cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                     priceFilter:"Rs 201 to Rs 500",
                     LED_Bulb_Wattage:"10 - 14 W",
+                    category: "Appliances & Electricals",
                     },
                     {
                         offerPercentage:"Get 24% Off 🌟",
@@ -166,6 +178,7 @@ var productsDetails = [
                         productDelivery:"Standard Delivery Available",
                         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                         priceFilter:"Rs 201 to Rs 500",
+                        category: "Appliances & Electricals",
                         },
                         
                 {
@@ -180,6 +193,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 501 to Rs 1000",
                 LED_Bulb_Wattage:"10 - 14 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 19% Off 🌟",
@@ -193,6 +207,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 501 to Rs 1000",
                 LED_Bulb_Wattage:"3 - 5 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 15% Off 🌟",
@@ -206,6 +221,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 101 to Rs 200",
                 LED_Bulb_Wattage:"3 - 5 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 63% Off 🌟",
@@ -219,6 +235,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 1001 to Rs 2000",
                 LED_Bulb_Wattage:"6 - 9 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 51 🌟",
@@ -231,6 +248,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 501 to Rs 1000",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 21 🌟",
@@ -243,6 +261,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 201 to Rs 500",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 51 🌟",
@@ -255,6 +274,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 1001 to Rs 2000",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 22% Off 🌟",
@@ -267,6 +287,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 501 to Rs 1000",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 46% Off 🌟",
@@ -280,6 +301,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 101 to Rs 200",
                 LED_Bulb_Wattage:"6 - 9 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 54% Off 🌟",
@@ -293,6 +315,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 101 to Rs 200",
                 LED_Bulb_Wattage:"6 - 9 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 16% Off 🌟",
@@ -305,6 +328,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 51 to Rs 100",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 31% Off 🌟",
@@ -318,6 +342,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 201 to Rs 500",
                 LED_Bulb_Wattage:"10 - 14 W",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 54% Off 🌟",
@@ -331,6 +356,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 priceFilter:"Rs 201 to Rs 500",
                 LED_Bulb_Wattage:"15 - 20 W",
+                category: "Appliances & Electricals",
             },
            
 

@@ -12,6 +12,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         bodyMaterial:"Stainless_Steel",
+        category: "Appliances & Electricals",
         },
 
      {
@@ -24,6 +25,7 @@ var productsDetails = [
      productMRP:"1126",
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -37,6 +39,7 @@ var productsDetails = [
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
      bodyMaterial:"Nylon",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -50,6 +53,7 @@ var productsDetails = [
      productDelivery:"Standard Delivery Available",
      cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
      bodyMaterial:"Silicon",
+     category: "Appliances & Electricals",
      },
 
      {
@@ -64,6 +68,7 @@ var productsDetails = [
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         bodyMaterial:"Plastic",
         productCapacity:"100 ml - 200 ml",
+        category: "Appliances & Electricals",
         },
    
         {
@@ -78,6 +83,7 @@ var productsDetails = [
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         bodyMaterial:"Plastic",
         productCapacity:"1 L - 2 L",
+        category: "Appliances & Electricals",
         },
    
         {
@@ -91,6 +97,7 @@ var productsDetails = [
             productDelivery:"Standard Delivery Available",
             cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
             bodyMaterial:"Silicon",
+            category: "Appliances & Electricals",
             },
    
         {
@@ -105,6 +112,7 @@ var productsDetails = [
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         bodyMaterial:"Plastic",
         productCapacity:"701 ml - 1 L",
+        category: "Appliances & Electricals",
         },
 
         {
@@ -118,6 +126,7 @@ var productsDetails = [
         productDelivery:"Standard Delivery Available",
         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
         bodyMaterial:"Plastic",
+        category: "Appliances & Electricals",
         },
         {
             offerPercentage:"Get 23% Off 🌟",
@@ -130,6 +139,7 @@ var productsDetails = [
             productDelivery:"Standard Delivery Available",
             cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
             bodyMaterial:"Plastic",
+            category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 41% Off 🌟",
@@ -142,6 +152,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Plastic",
+                category: "Appliances & Electricals",
                 },
                 {
                     offerPercentage:"Get 20% Off 🌟",
@@ -155,6 +166,7 @@ var productsDetails = [
                     cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                     bodyMaterial:"Plastic",
                     productCapacity:"4 L - 8 L",
+                    category: "Appliances & Electricals",
                     },
                     {
                         offerPercentage:"Get 23% Off 🌟",
@@ -167,6 +179,7 @@ var productsDetails = [
                         productDelivery:"Standard Delivery Available",
                         cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                         bodyMaterial:"Plastic",
+                        category: "Appliances & Electricals",
                         },
                         
                 {
@@ -180,6 +193,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Steel",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 34% Off 🌟",
@@ -193,6 +207,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Plastic",
                 productCapacity:"401 ml - 850 ml",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 23% Off 🌟",
@@ -206,6 +221,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Plastic",
                 productCapacity:"1 L - 2 L",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 32% Off 🌟",
@@ -219,6 +235,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Plastic",
                 productCapacity:"1 L - 2 L",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 51 🌟",
@@ -231,6 +248,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 21 🌟",
@@ -243,6 +261,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 51 🌟",
@@ -255,6 +274,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 22% Off 🌟",
@@ -267,6 +287,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 46% Off 🌟",
@@ -279,6 +300,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 54% Off 🌟",
@@ -291,6 +313,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 16% Off 🌟",
@@ -303,6 +326,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Silicon",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 43% Off 🌟",
@@ -316,6 +340,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Stainless_Steel",
                 productCapacity:"400 ml - 850 ml",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 36% Off 🌟",
@@ -328,6 +353,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Mirror Finish",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 48% Off 🌟",
@@ -341,6 +367,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Stainless_Steel",
                 productCapacity:"1 L - 2 L",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 15% Off 🌟",
@@ -353,6 +380,7 @@ var productsDetails = [
                 productDelivery:"Standard Delivery Available",
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 productCapacity:"100 ml - 200 ml",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 251 🌟",
@@ -366,6 +394,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Stainless_Steel",
                 productCapacity:"4 L - 8 L",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Save Rs 101 🌟",
@@ -379,6 +408,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Stainless_Steel",
                 productCapacity:"4 L - 8 L",
+                category: "Appliances & Electricals",
             },
             {
                 offerPercentage:"Get 31% Off 🌟",
@@ -392,6 +422,7 @@ var productsDetails = [
                 cart:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-GCBD--xef2TLpm3HV4oVp19NmtjESahEAg&usqp=CAU",
                 bodyMaterial:"Stainless_Steel",
                 productCapacity:"701 ml - 1 L",
+                category: "Appliances & Electricals",
 
             },
 
@@ -400,7 +431,8 @@ var productsDetails = [
 
     localStorage.setItem("productsDisplayed_LS", JSON.stringify(productsDetails));
 
-    var addCartProducts = [];
+    // JSON.parse(localStorage.getItem("mini-cart")) ||    // added by Khalid Shah
+    var addCartProducts = JSON.parse(localStorage.getItem("mini-cart")) || [];
 
     var miniBaskets=document.querySelector("#detailedProductViews");
 

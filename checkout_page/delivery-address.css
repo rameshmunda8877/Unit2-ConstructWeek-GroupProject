@@ -1,5 +1,5 @@
 #delivery-address{
-    /* border: 1px solid blue; */
+    border: 1px solid #dcdcdc;
     width: 100%;
     height: auto;
 }
@@ -27,7 +27,7 @@
     color: red;
 }
 .form-group{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
 }
