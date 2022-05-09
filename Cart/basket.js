@@ -2,12 +2,16 @@
 
 var container = document.querySelector("#container")
 
+// local storage taken from add to cart button
 var details = JSON.parse(localStorage.getItem("mini-cart"))
 
+// local Storage for checkout
 var totalamount = JSON.parse(localStorage.getItem("amount"))
 
+// local Storage for checkout
 var saveamount = JSON.parse(localStorage.getItem("savedamount"))
 
+// local Storage for checkout
 var finalLocal = localStorage.getItem("checkout") || null
 
 display(details)
@@ -39,13 +43,13 @@ function display(data) {
         yourBasket.innerText = "Your Basket"
 
         const basketHrLine = document.createElement('hr');
-        basketHrLine.setAttribute("id","basketHrLine")
+        basketHrLine.setAttribute("id", "basketHrLine")
 
         const promoButton = document.createElement('button');
         promoButton.setAttribute("id", "availPromobtn")
         promoButton.innerText = "VIEW AVAILABLE PROMOS"
-        promoButton.addEventListener("click",promoFunction)
-        function promoFunction(){
+        promoButton.addEventListener("click", promoFunction)
+        function promoFunction() {
             alert("No Promos Available for Now")
         }
 
@@ -69,6 +73,7 @@ function display(data) {
 
         data.forEach(function (elem, index) {
 
+            // Div for containing product details
             const allDetails = document.createElement('div');
             allDetails.setAttribute("id", "allDetails")
 
@@ -115,11 +120,8 @@ function display(data) {
 
                 if (count == 1) {
                     data.splice(index, 1)
-                    // details.splice(index,1)
-                    // var details = []
                     localStorage.setItem("mini-cart", JSON.stringify(details))
                     window.location.reload()
-                    // window.opener.location.reload().href = "sampleData.html"
                 }
                 else {
                     count--
@@ -133,7 +135,6 @@ function display(data) {
                     saving.innerText = "Rs." + " " + save
                     localStorage.setItem("amount", sub)
                     localStorage.setItem("savedamount", sav)
-
                 }
             }
 
@@ -157,8 +158,6 @@ function display(data) {
                 saving.innerText = "Rs." + " " + save.toFixed(2)
                 localStorage.setItem("amount", sub)
                 localStorage.setItem("savedamount", JSON.stringify(sav))
-                // localStorage.setItem("khlaid", JSON.stringify(data))
-
             }
 
             incDecQuantity.append(pMinus, pQuantity, pPlus)
@@ -178,8 +177,9 @@ function display(data) {
                 deleteItem(data, index)
             })
 
+            // saving of single product
             const saving = document.createElement('p');
-            saving.setAttribute("id","savingBorder")
+            saving.setAttribute("id", "savingBorder")
             saving.style.color = "#BE1E2D"
             var sav = (elem.productStrikeMRP - elem.productMRP)
             var save = sav
@@ -218,6 +218,7 @@ function display(data) {
         emptyBasketButton.append(emptyBasket)
         containerAfterProductDetail.append(emptyBasketButton)
 
+        // subtotal and total and checkout button
         const checkoutDiv = document.createElement('div');
         checkoutDiv.setAttribute("id", "checkoutDiv")
         containerAfterProductDetail.append(checkoutDiv)
@@ -237,7 +238,7 @@ function display(data) {
         checkoutSubtotalAndDeliveryText.append(checkoutSubtotalAndDeliveryTextp1, checkoutSubtotalAndDeliveryTextp2)
 
 
-        // 
+        // checkout sub total
         const checkoutSubtotalValue = document.createElement('div');
         checkoutSubtotalValue.setAttribute("id", "checkoutSubtotalValue")
         const checkoutSubtotalValuep1 = document.createElement('p');
@@ -247,7 +248,7 @@ function display(data) {
         checkoutSubtotalValue.append(checkoutSubtotalValuep1, checkoutSubtotalValuep2)
         checkoutSubTotal.append(checkoutSubtotalAndDeliveryText, checkoutSubtotalValue)
 
-
+        // checkout total
         const checkoutTotal = document.createElement('div');
         checkoutTotal.setAttribute("id", "checkoutTotal")
         const checkoutTotalp1 = document.createElement('p');
@@ -257,10 +258,9 @@ function display(data) {
         checkoutTotal.append(checkoutTotalp1, checkoutTotalp2)
 
 
-
         subTotalAndTotal.append(checkoutSubTotal, checkoutTotal)
 
-
+        // overall saved amount
         const saveDiv = document.createElement('div');
         saveDiv.setAttribute("id", "saveDiv")
         const saveDivImg = document.createElement('img');
@@ -274,6 +274,7 @@ function display(data) {
         saveDiv.append(saveDivImg, saveDivP1, saveDivP2)
         checkoutDiv1.append(subTotalAndTotal, saveDiv)
 
+        // checkout button
         const checkoutDiv2 = document.createElement('div');
         checkoutDiv2.setAttribute("id", "checkoutDiv2")
         const checkoutButton = document.createElement('button');
@@ -292,7 +293,7 @@ function display(data) {
         checkoutDiv2.append(checkoutButton, deliveryInstruction)
         checkoutDiv.append(checkoutDiv1, checkoutDiv2)
 
-
+        // continue shopping button
         const lastShoppingButton = document.createElement('div');
         lastShoppingButton.setAttribute("id", "lastShoppingButton")
         var continueShoppingButton = document.createElement("button")
@@ -305,14 +306,15 @@ function display(data) {
 
 
     }
-
+    // delete product function
     function deleteItem(data, index) {
         data.splice(index, 1)
         localStorage.setItem("mini-cart", JSON.stringify(details))
         window.location.reload()
     }
 
-    function shoppingFunction(){
+    // continue shopping button function
+    function shoppingFunction() {
         window.location.href = "../index.html"
     }
 }
