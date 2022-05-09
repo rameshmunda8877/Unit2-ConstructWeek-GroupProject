@@ -193,9 +193,9 @@ function display(data) {
             localStorage.setItem("savedamount", sav)
         })
 
-        const containerAfterProductDetail = document.createElement('div');
-        containerAfterProductDetail.setAttribute("id", "containerAfterProductDetail")
-        document.querySelector("body").append(containerAfterProductDetail)
+        // const containerAfterProductDetail = document.createElement('div');
+        // containerAfterProductDetail.setAttribute("id", "containerAfterProductDetail")
+        // document.querySelector("body").append(containerAfterProductDetail)
 
         // Empty Basket button
         const emptyBasketButton = document.createElement('div');
@@ -209,19 +209,19 @@ function display(data) {
             if (a) {
                 document.querySelector("#container").innerHTML = ""
                 document.querySelector("#cont").innerHTML = ""
-                containerAfterProductDetail.innerHTML = ""
+               document.querySelector("#containerAfterProductDetail").innerHTML = ""
                 details = []
                 localStorage.setItem("mini-cart", JSON.stringify(details))
                 window.location.reload()
             }
         }
         emptyBasketButton.append(emptyBasket)
-        containerAfterProductDetail.append(emptyBasketButton)
+        document.querySelector("#containerAfterProductDetail").append(emptyBasketButton)
 
         // subtotal and total and checkout button
         const checkoutDiv = document.createElement('div');
         checkoutDiv.setAttribute("id", "checkoutDiv")
-        containerAfterProductDetail.append(checkoutDiv)
+        document.querySelector("#containerAfterProductDetail").append(checkoutDiv)
 
         const checkoutDiv1 = document.createElement('div');
         checkoutDiv1.setAttribute("id", "checkoutDiv1")
@@ -294,15 +294,13 @@ function display(data) {
         checkoutDiv.append(checkoutDiv1, checkoutDiv2)
 
         // continue shopping button
-        const lastShoppingButton = document.createElement('div');
-        lastShoppingButton.setAttribute("id", "lastShoppingButton")
+        
         var continueShoppingButton = document.createElement("button")
         continueShoppingButton.setAttribute("id", "latContinueShoppingButton")
         continueShoppingButton.innerText = "CONTINUE SHOPPING"
         continueShoppingButton.addEventListener("click", shoppingFunction)
 
-        lastShoppingButton.append(continueShoppingButton)
-        document.querySelector("body").append(lastShoppingButton)
+        document.querySelector("#lastShoppingButton").append(continueShoppingButton)
 
 
     }
