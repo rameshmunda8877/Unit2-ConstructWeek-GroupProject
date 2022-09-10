@@ -31,7 +31,7 @@ function display(data) {
         continueShoppingButton.addEventListener("click", shoppingFunction)
 
         function shoppingFunction() {
-            window.location.href = "../Home_Page/index.html"
+            window.location.href = "../index.html"
         }
         document.querySelector("#container").append(noItem, hrline, continueShoppingButton)
     }
@@ -320,7 +320,7 @@ function display(data) {
 
     // continue shopping button function
     function shoppingFunction() {
-        window.location.href = "../Home_Page/index.html"
+        window.location.href = "../index.html"
     }
 }
 
