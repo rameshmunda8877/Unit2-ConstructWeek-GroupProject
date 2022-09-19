@@ -161,10 +161,10 @@ function display(data) {
                 // khalid(totalamount)
                 // totalamount.push(sub)
 
-                
+
                 localStorage.setItem("amount", sub)
                 localStorage.setItem("savedamount", JSON.stringify(sav))
-            
+
             }
 
             incDecQuantity.append(pMinus, pQuantity, pPlus)
@@ -324,10 +324,9 @@ function display(data) {
     }
 }
 
-function khalid(shah){
+function khalid(shah) {
     var sum = 0;
-    for(var i=0; i<shah.length; i++)
-    {
+    for (var i = 0; i < shah.length; i++) {
         sum += shah[i]
     }
 }
