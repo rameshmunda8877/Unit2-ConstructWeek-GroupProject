@@ -1,12 +1,14 @@
 # Unit2-ConstructWeek-GroupProject
-Unit 2 Construct Week Group Project
-
+Unit 2 Construct Week Group Project 
+Bigbasket is an E-commerce website. Bigbasket is best online grocery store in India. bigbasket is an online supermarket for all your daily needs.
+Clone of Bigbasket website by using HTML,CSS & JavaScript . In this clone website provide almost all function as real website, so that you get real experience.
 
 # Big Basket
 Created a clone website by our team.
 
 ## Home Page : 
 Home page created and described by Manoj Gajare
+
 
 ## Products Category Page :
 Product category page 1 and 2 created and described by Ketan Srivastawa
